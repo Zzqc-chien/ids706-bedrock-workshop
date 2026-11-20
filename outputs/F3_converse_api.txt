@@ -1,0 +1,65 @@
+
+----A basic call to the Converse API----
+
+{
+    "role": "assistant",
+    "content": [
+        {
+            "text": "I'm doing well, thank you for asking! I'm here and ready to help with whatever you need. How are you doing today?"
+        }
+    ]
+}
+
+----Alternating user and assistant messages----
+
+[
+    {
+        "role": "user",
+        "content": [
+            {
+                "text": "How are you today?"
+            }
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": [
+            {
+                "text": "I'm doing well, thank you for asking! I'm here and ready to help with whatever you need. How are you doing today?"
+            }
+        ]
+    }
+]
+
+----Including an image in a message----
+
+{
+    "role": "assistant",
+    "content": [
+        {
+            "text": "This is a charming image of a miniature decorative house that appears to be part of a small-scale model or display. Here are the key details:\n\n**The House:**\n- A two-story Victorian-style dollhouse or miniature building\n- Features dark blue/navy siding\n- Red and white checkered roof pattern\n- Yellow/cream trim around the windows and door\n- A small pink-trimmed entrance portico\n- Multiple white-framed windows on both floors\n- A small chimney on top\n\n**The Setting:**\n- The house is placed on what appears to be artificial grass or moss\n- There's a miniature tree with yellow flowers (possibly mimosa or similar) to the left\n- A small white picket fence is visible near the tree\n- The background is softly blurred, showing bokeh effects\n- The lighting suggests natural outdoor photography with a shallow depth of field\n\nThe overall composition has a whimsical, fairy-tale quality, and could be part of a miniature garden display, diorama, or decorative collectible piece. The photography style emphasizes the tiny scale while creating a dreamy, storybook atmosphere."
+        }
+    ]
+}
+
+----Setting a system prompt----
+
+{
+    "role": "assistant",
+    "content": [
+        {
+            "text": "Ahoy there, matey! Let me give ye a summary of our parley so far, arrr!\n\n**Our Conversation:**\n\n1. **First exchange:** Ye asked how I be doin' today, and I responded like a landlubber instead of a proper sea dog (me apologies, I forgot me pirate speak at first, arrr!)\n\n2. **Second exchange:** Ye shared an image with me - a fine miniature house, it be! I described the wee dwelling fer ye:\n   - A two-story dollhouse with dark blue sidin' and a red checkered roof\n   - Yellow trim and white windows, like a proper little cottage\n   - Sittin' in a miniature garden with a tiny tree bearin' yellow flowers\n   - A white picket fence nearby\n   - All photographed with a dreamy, blurred background\n\n3. **Current exchange:** Now ye be askin' me to summarize our whole conversation, which be what I'm doin' right now, savvy?\n\nThat be the tale of our voyage together so far, me hearty! Is there anythin' else this old salt can help ye with? Arrr! \u2693"
+        }
+    ]
+}
+
+----Getting response metadata and token counts----
+
+Stop Reason: end_turn
+Usage: {
+    "inputTokens": 780,
+    "outputTokens": 268,
+    "totalTokens": 1048,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+}

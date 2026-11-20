@@ -1,0 +1,117 @@
+Amazon Bedrock Trace:
+{
+    "guardrail": {
+        "input": {
+            "q6dtvir82xpa": {
+                "invocationMetrics": {
+                    "guardrailProcessingLatency": 219,
+                    "usage": {
+                        "topicPolicyUnits": 1,
+                        "contentPolicyUnits": 1,
+                        "wordPolicyUnits": 1,
+                        "automatedReasoningPolicyUnits": 0,
+                        "automatedReasoningPolicies": 0,
+                        "sensitiveInformationPolicyUnits": 0,
+                        "sensitiveInformationPolicyFreeUnits": 0,
+                        "contextualGroundingPolicyUnits": 0,
+                        "contentPolicyImageUnits": 0
+                    },
+                    "guardrailCoverage": {
+                        "textCharacters": {
+                            "guarded": 22,
+                            "total": 22
+                        }
+                    }
+                },
+                "appliedGuardrailDetails": {
+                    "guardrailId": "q6dtvir82xpa",
+                    "guardrailVersion": "DRAFT",
+                    "guardrailArn": "arn:aws:bedrock:us-west-2:292257773579:guardrail/q6dtvir82xpa",
+                    "guardrailOrigin": [
+                        "REQUEST"
+                    ],
+                    "guardrailOwnership": "SELF"
+                }
+            }
+        },
+        "outputs": [
+            {
+                "q6dtvir82xpa": {
+                    "invocationMetrics": {
+                        "guardrailProcessingLatency": 234,
+                        "usage": {
+                            "topicPolicyUnits": 2,
+                            "contentPolicyUnits": 2,
+                            "wordPolicyUnits": 2,
+                            "automatedReasoningPolicyUnits": 0,
+                            "automatedReasoningPolicies": 0,
+                            "sensitiveInformationPolicyUnits": 0,
+                            "sensitiveInformationPolicyFreeUnits": 0,
+                            "contextualGroundingPolicyUnits": 0,
+                            "contentPolicyImageUnits": 0
+                        },
+                        "guardrailCoverage": {
+                            "textCharacters": {
+                                "guarded": 1390,
+                                "total": 1390
+                            }
+                        }
+                    },
+                    "appliedGuardrailDetails": {
+                        "guardrailId": "q6dtvir82xpa",
+                        "guardrailVersion": "DRAFT",
+                        "guardrailArn": "arn:aws:bedrock:us-west-2:292257773579:guardrail/q6dtvir82xpa",
+                        "guardrailOrigin": [
+                            "REQUEST"
+                        ],
+                        "guardrailOwnership": "SELF"
+                    }
+                }
+            }
+        ],
+        "actionReason": "No action."
+    }
+}
+To wash a car, follow these steps:
+
+### Materials Needed:
+- Buckets
+- Car wash soap
+- Hose with a spray nozzle
+- Microfiber wash mitt
+- Soft towels or chamois
+- Wheel cleaner (optional)
+- Brushes (soft and for wheels)
+- Vacuum cleaner (for interiors)
+- Glass cleaner and squeegee (optional)
+
+### Steps:
+
+1. **Rinse the Car:**
+   - Use a hose with a spray nozzle to thoroughly rinse the car, removing loose dirt and debris.
+
+2. **Prepare the Soapy Water:**
+   - Fill one bucket with water and add car wash soap according to the manufacturer’s instructions.
+   - Fill another bucket with clean water for rinsing the mitt.
+
+3. **Wash the Car:**
+   - Dip the microfiber wash mitt into the soapy water.
+   - Start washing the car from the top and work your way down.
+   - Frequently rinse the mitt in the clean water to remove dirt.
+
+4. **Clean the Wheels:**
+   - Use a separate brush and wheel cleaner to clean the wheels and tires.
+
+5. **Rinse Again:**
+   - Rinse the car thoroughly to remove all soap residue.
+
+6. **Dry the Car:**
+   - Use a soft towel or chamois to dry the car, ensuring no water spots are left behind.
+
+7. **Clean Interior (optional):**
+   - Vacuum the interior.
+   - Use glass cleaner and a squeegee to clean the windows.
+
+### Tips:
+- Avoid using a power washer as it can damage the car’s paint.
+- Wash the car in a shaded area to prevent the soap from drying too quickly.

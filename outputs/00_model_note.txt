@@ -1,0 +1,1 @@
+Model used for Claude-based labs: us.anthropic.claude-sonnet-4-5-20250929-v1:0 (Claude 3.7 Sonnet was retired)

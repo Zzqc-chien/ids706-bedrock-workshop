@@ -1,0 +1,59 @@
+
+Input text:
+
+Q3 Performance Summary:
+Customer satisfaction score increased to 92 points this quarter.
+Revenue grew 45% year over year.
+Market share in key markets is now 23%.
+Customer churn decreased from 8% to 5%.
+Customer acquisition cost is $43 per user.
+Product adoption rate increased to 78%.
+Employee satisfaction is at 87 points.
+Operating margin improved to 34%.
+
+
+Step 1:
+92: Customer Satisfaction Score
+45%: Revenue Growth Year Over Year
+23%: Market Share in Key Markets
+8%: Customer Churn (Previous)
+5%: Customer Churn (Current)
+$43: Customer Acquisition Cost Per User
+78%: Product Adoption Rate
+87: Employee Satisfaction
+34%: Operating Margin
+
+Step 2:
+92%: Customer Satisfaction Score
+45%: Revenue Growth Year Over Year
+23%: Market Share in Key Markets
+8%: Customer Churn (Previous)
+5%: Customer Churn (Current)
+43%: Customer Acquisition Cost Per User
+78%: Product Adoption Rate
+87%: Employee Satisfaction
+34%: Operating Margin
+
+Step 3:
+92%: Customer Satisfaction Score
+87%: Employee Satisfaction
+78%: Product Adoption Rate
+45%: Revenue Growth Year Over Year
+43%: Customer Acquisition Cost Per User
+34%: Operating Margin
+23%: Market Share in Key Markets
+8%: Customer Churn (Previous)
+5%: Customer Churn (Current)
+
+Step 4:
+| Metric | Value |
+|:--|--:|
+| Customer Satisfaction Score | 92% |
+| Employee Satisfaction | 87% |
+| Product Adoption Rate | 78% |
+| Revenue Growth Year Over Year | 45% |
+| Customer Acquisition Cost Per User | 43% |
+| Operating Margin | 34% |
+| Market Share in Key Markets | 23% |
+| Customer Churn (Previous) | 8% |
+| Customer Churn (Current) | 5% |

@@ -1,0 +1,209 @@
+Processing support tickets...
+
+
+Ticket 1:
+----------------------------------------
+Subject: Cannot access account
+    Message: Hi, I've been trying to log in for the past hour but keep getting 'incorrect password' errors.
+    I'm certain I'm using the correct password. Can you help me regain access? This is urgent as I need to
+    submit a report before end of business today.
+    - John
+
+Response:
+----------------------------------------
+
+Available routes: ['billing', 'technical', 'account', 'product']
+Routing Analysis:
+
+This ticket involves a login/authentication issue where the user cannot access their account due to password errors. Key indicators:
+
+1. **Primary issue**: Account access problem - user is locked out and cannot log in
+2. **Nature of problem**: Authentication/password issue, which is typically handled by account management or technical support
+3. **User needs**: Password reset or account unlock assistance
+4. **Urgency**: High - user has a time-sensitive deadline (end of business today)
+
+While this could potentially be a technical issue, the core problem is account access and authentication, which is most directly handled by the account support team. They specialize in:
+- Password resets
+- Account lockouts
+- Login credential issues
+- Account recovery
+
+This is not billing-related (no payment/subscription issues), not product-related (no feature questions), and while it has technical elements, it's primarily an account access issue rather than a system malfunction.
+
+
+Selected route: account
+Account Support Response:
+
+**Account Access Issue - Case Priority: High**
+
+Dear John,
+
+Thank you for contacting us regarding your login difficulties. I understand the urgency of your situation and will guide you through the resolution process.
+
+---
+
+**IMMEDIATE STEPS TO REGAIN ACCESS:**
+
+1. **Password Reset (Recommended)**
+   - Navigate to the login page and click "Forgot Password"
+   - Enter your registered email address
+   - Check your inbox for a password reset link (arrives within 5 minutes)
+   - Check spam/junk folders if not received
+   - Create a new strong password following our requirements
+
+2. **Alternative Verification**
+   - If you have two-factor authentication enabled, ensure you're entering the current code
+   - Verify Caps Lock is OFF when entering credentials
+   - Try a different browser or clear your current browser's cache and cookies
+
+3. **Account Lock Check**
+   - Multiple failed login attempts may have temporarily locked your account (standard security measure)
+   - Lockouts typically auto-resolve after 30 minutes, or proceed with password reset to unlock immediately
+
+---
+
+**SECURITY CONSIDERATIONS:**
+
+⚠️ **Warning Signs to Note:**
+- If you receive unexpected password reset emails you didn't request, your account may be targeted
+- Recent unusual activity notifications should be reported immediately
+
+🔒 **Security Best Practices:**
+- Never share your password with anyone, including support staff
+- Use a unique password not used on other platforms
+- Enable two-factor authentication if not already active
+
+---
+
+**EXPECTED RESOLUTION TIME:**
+- Self-service password reset: 5-10 minutes
+- If issues persist after reset: Escalation to our security team within 2 hours during business hours
+
+**URGENT ASSISTANCE:**
+If you cannot resolve this through password reset within the next 30 minutes, please call our priority support line at [support number] and reference this case for expedited handling given your deadline.
+
+Please confirm once you've regained access or let me know if you encounter any issues during the reset process.
+
+Best regards,
+Account Security Team
+
+Ticket 2:
+----------------------------------------
+Subject: Unexpected charge on card
+    Message: Hello, I just noticed a charge of $49.99 from your company on my credit card, but I thought
+    I was on the $29.99 plan. Could you explain this charge and adjust it if it's a mistake?
+    Thanks,
+    Sarah
+
+Response:
+----------------------------------------
+
+Available routes: ['billing', 'technical', 'account', 'product']
+Routing Analysis:
+
+This ticket involves a discrepancy between expected and actual charges on the customer's credit card. Key indicators include:
+- Direct mention of "charge on card" and specific dollar amounts ($49.99 vs $29.99)
+- Question about explaining the charge
+- Request to "adjust it if it's a mistake"
+- Concerns about billing plan pricing
+
+This is clearly a billing/payment issue that requires investigation of the customer's account charges, plan details, and potentially processing a refund or correction. The billing team would have access to payment records, subscription details, and authority to make financial adjustments.
+
+
+Selected route: billing
+Billing Support Response:
+
+Hello Sarah,
+
+Thank you for reaching out, and I completely understand your concern about the unexpected charge difference on your account.
+
+**Regarding Your Charge:**
+
+I see you were charged $49.99 instead of the expected $29.99 plan amount. Let me help clarify what may have occurred:
+
+Common reasons for this difference could include:
+- An automatic plan upgrade that may have been triggered
+- Additional services or features added to your account
+- A annual vs. monthly billing cycle difference
+- Possible promotional pricing that recently expired
+
+**Next Steps & Timeline:**
+
+1. **Immediate (within 24 hours):** I'll review your account details to identify the exact reason for the $49.99 charge
+2. **Within 24-48 hours:** You'll receive a detailed breakdown of the charge via email
+3. **If an error occurred:** We'll process a refund of the $20 difference within 3-5 business days
+4. **If legitimate:** I'll explain the charge and discuss options to return to the $29.99 plan if preferred
+
+**Payment Options:**
+
+If a refund is warranted, it will be credited back to the same credit card ending in the numbers on file. Alternatively, we can apply it as an account credit toward your next billing cycle.
+
+Could you please reply with your account email or account number so I can investigate this right away?
+
+Best regards,
+Billing Support Team
+
+Ticket 3:
+----------------------------------------
+Subject: How to export data?
+    Message: I need to export all my project data to Excel. I've looked through the documentation but
+    can't find how to do a bulk export. Is this possible? If so, could you walk me through the steps?
+    Thanks,
+    Mike
+
+Response:
+----------------------------------------
+
+Available routes: ['billing', 'technical', 'account', 'product']
+Routing Analysis:
+
+This ticket is about understanding how to use a specific feature (data export functionality) within the product. The user is asking about:
+1. Whether bulk export capability exists
+2. How to perform the export operation
+3. Step-by-step guidance on using the feature
+
+This is a product usage question rather than a technical issue (nothing is broken), billing matter (no payment/subscription concerns), or account management issue (no access/settings problems). The user needs guidance on product functionality and features, which falls under product support's domain of helping users understand and utilize product capabilities.
+
+
+Selected route: product
+Product Support Response:
+
+Hi Mike,
+
+Great question! I'm happy to walk you through our data export capabilities.
+
+**How to Export Your Project Data:**
+
+1. **Single Project Export:**
+   - Navigate to your project dashboard
+   - Click the "Actions" menu (three dots) in the top right
+   - Select "Export to Excel"
+   - Choose your preferred format (XLSX or CSV)
+   - Click "Download"
+
+2. **Bulk Export (Multiple Projects):**
+   - Go to the main Projects page
+   - Use checkboxes to select the projects you want to export
+   - Click the "Bulk Actions" button at the top
+   - Select "Export Selected Projects"
+   - Your file will be compiled and downloaded automatically
+
+**Pro Tips:**
+- You can customize which fields to include by clicking "Export Options" before downloading
+- Scheduled exports can be set up under Settings > Automation if you need regular exports
+- Large datasets (1000+ records) will be emailed to you rather than downloaded directly
+
+**Relevant Documentation:**
+- [Complete Export Guide](link-to-docs/exporting-data)
+- [Customizing Export Fields](link-to-docs/export-customization)
+- [Setting Up Automated Exports](link-to-docs/automation)
+
+**Related Features You Might Find Helpful:**
+- **Data Templates**: Save your export configurations for repeated use
+- **API Access**: For programmatic exports if you need integration with other tools
+- **Report Builder**: Create formatted reports with charts before exporting
+
+Let me know if you need any clarification on these steps!
+
+Best regards,
+Product Support Team

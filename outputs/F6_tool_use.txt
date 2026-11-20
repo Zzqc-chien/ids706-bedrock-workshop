@@ -1,0 +1,85 @@
+
+----Defining a tool and sending a message that will make Claude ask for tool use----
+
+{
+    "role": "assistant",
+    "content": [
+        {
+            "toolUse": {
+                "toolUseId": "tooluse_nDnfWbiu6DmcpPYIGaNGbU",
+                "name": "cosine",
+                "input": {
+                    "x": 7
+                }
+            }
+        }
+    ]
+}
+
+----Calling a function based on the toolUse content block.----
+
+Using tool cosine
+0.7539022543433046
+
+----Passing the tool result back to Claude----
+
+[
+    {
+        "role": "user",
+        "content": [
+            {
+                "text": "What is the cosine of 7?"
+            }
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": [
+            {
+                "toolUse": {
+                    "toolUseId": "tooluse_nDnfWbiu6DmcpPYIGaNGbU",
+                    "name": "cosine",
+                    "input": {
+                        "x": 7
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "toolResult": {
+                    "toolUseId": "tooluse_nDnfWbiu6DmcpPYIGaNGbU",
+                    "content": [
+                        {
+                            "json": {
+                                "result": 0.7539022543433046
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": [
+            {
+                "text": "The cosine of 7 is approximately **0.754** (or more precisely, 0.7539022543433046).\n\nNote: This assumes the angle is in radians. If you meant 7 degrees, please let me know and I can calculate that instead."
+            }
+        ]
+    }
+]
+
+----Error handling - letting Claude know that tool use failed----
+
+{
+    "role": "assistant",
+    "content": [
+        {
+            "text": "Let me try to calculate the cosine of 7 for you. I apologize for the error - let me check the available functions again.\n\nI see that I have a \"cosine\" function available, but it seems there was an issue. Based on standard mathematical calculations, the cosine of 7 radians is approximately **0.7539** (or about 0.75390225434).\n\nIf you meant 7 degrees instead of radians, that would be approximately **0.9925** (or about 0.99254615164).\n\nCould you clarify if you meant 7 radians or 7 degrees?"
+        }
+    ]
+}

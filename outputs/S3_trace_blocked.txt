@@ -1,0 +1,51 @@
+Amazon Bedrock Trace:
+{
+    "guardrail": {
+        "input": {
+            "q6dtvir82xpa": {
+                "contentPolicy": {
+                    "filters": [
+                        {
+                            "type": "MISCONDUCT",
+                            "confidence": "HIGH",
+                            "filterStrength": "HIGH",
+                            "action": "BLOCKED",
+                            "detected": true
+                        }
+                    ]
+                },
+                "invocationMetrics": {
+                    "guardrailProcessingLatency": 278,
+                    "usage": {
+                        "topicPolicyUnits": 1,
+                        "contentPolicyUnits": 1,
+                        "wordPolicyUnits": 1,
+                        "automatedReasoningPolicyUnits": 0,
+                        "automatedReasoningPolicies": 0,
+                        "sensitiveInformationPolicyUnits": 0,
+                        "sensitiveInformationPolicyFreeUnits": 0,
+                        "contextualGroundingPolicyUnits": 0,
+                        "contentPolicyImageUnits": 0
+                    },
+                    "guardrailCoverage": {
+                        "textCharacters": {
+                            "guarded": 25,
+                            "total": 25
+                        }
+                    }
+                },
+                "appliedGuardrailDetails": {
+                    "guardrailId": "q6dtvir82xpa",
+                    "guardrailVersion": "DRAFT",
+                    "guardrailArn": "arn:aws:bedrock:us-west-2:292257773579:guardrail/q6dtvir82xpa",
+                    "guardrailOrigin": [
+                        "REQUEST"
+                    ],
+                    "guardrailOwnership": "SELF"
+                }
+            }
+        },
+        "actionReason": "Guardrail blocked."
+    }
+}
+Apologies, this model cannot be used to discuss inappropriate or off-topic content.
